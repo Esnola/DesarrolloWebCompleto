@@ -1,25 +1,63 @@
+:root{
+    --blanco: #fff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8rem;
+}
 html{
     font-size: 62.5%;
 }
 
 body{
+    font-family: 'Krub', sans-serif;
     font-size: 16px;/* 1rem = 10px */
 }
-h1{
+.titulo{
     text-align: center;
     font-size: 3.8rem;
+    color: var(--secundario);
 }
 
-h1 span{
+.titulo span{
     font-size: 2.2rem;
-    font: 2.2rem  sans-serif;
+    font: 2.2rem;
     cursor:pointer;
     transition: text-decoration 0.9s ease-in;
     transition: background-color 0.9s ease-in-out;
 }
 
-h1 span:hover{
+.titulo span:hover{
     text-decoration: underline overline red;
     background-color: greenyellow;
     
+}
+
+.contenedor{
+    width: 100rem;
+    margin:0 auto;
+}
+
+ .nav-bg{
+    background-color: var(--secundario);
+} 
+
+.navegacion-principal{
+    display: flex;
+    justify-content:space-between;
+}
+
+.navegacion-principal a{
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
