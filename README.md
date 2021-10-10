@@ -1,3 +1,5 @@
 # DesarrolloWebCompleto
-Explicación sobre rem en el lección 18.
-<br>Especificidad en video 20
+<ul>
+<li>Explicación sobre rem en el lección 18.
+<li>Especificidad en video 20
+</ul>
