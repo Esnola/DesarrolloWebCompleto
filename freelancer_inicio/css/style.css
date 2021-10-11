@@ -9,7 +9,15 @@
 }
 html{
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box;/* Hack para Box Model*/
+    scroll-snap-type: y mandatory;
+}
+
+.servicios,
+.formulario,
+.navegacion-principal{
+    scroll-snap-align:center;
+    scroll-snap-stop: always;
 }
 
 *, *:before, *:after{
@@ -169,8 +177,6 @@ h1, h2, h3 {
 .formulario{
     background-color: var(--gris);
     border-radius: 10px;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
     padding: 3rem;
 }
 
